@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60px;
+    margin-bottom: -12px;
+}
+
+.Get_Config{
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -12px;
+    display: inline-block;
+    display: inline-flex;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 1;
+    font-weight: bolder;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: .027em;
+    text-decoration: none;
+    background-color:#31ad73;
+    color:#fff;
+    border: 0;
+    width: 60%;
+    border-radius: 10px;
+    padding: .55556em .55556em .5em;
+}
+
+.funimation{
+    float: left;
+    text-align: left;
+    margin-left: 10%;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+}
+.bww{
+    float: left;
+    text-align: left;
+    margin-left: 5%;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.Config_List{
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -16%;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.Config_Desc{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+    width: 60%;
+    text-align: center;
+}
+.x-vpn{
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+}
