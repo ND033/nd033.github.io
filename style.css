@@ -110,3 +110,44 @@ img{
     height: 300px;
     margin-top: 100px;
 }
+
+.VyprVPN{
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.Chaturbate{
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.Skinhub{
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.Minecraft{
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    border-radius: 0;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.Minecraft-Logo{
+    border-radius: 0px;
+}
