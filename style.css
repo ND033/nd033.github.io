@@ -1,196 +1,81 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
-*{
-    list-style: none;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap');
+
+.configdesc{
+    width: 290px;
+    height: 390px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
+    margin-left: 4.5%;
+    margin-bottom: 2%;
+    float: left;
+}
+
+body{
+    background-color: rgb(240, 240, 240)
+}
+
+h1{
     text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 4%;
+    position: relative;
+}
+
+.line{
+    width: 80px;
+    height: 7px;
+    background-color: rgb(69, 202, 91);
+    margin: auto;
+    margin-top: -0.7%;
+    border-radius: 10px;
+    margin-bottom: 4%
 }
 
 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 60px;
-    margin-bottom: -12px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 0%;
+    height: 36%;
 }
 
-.Get_Config{
-    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: -12px;
-    display: inline-block;
-    display: inline-flex;
-    align-items: stretch;
-    justify-content: center;
-    text-align: center;
-    box-sizing: border-box;
-    line-height: 1;
-    font-weight: bolder;
-    font-size: 19px;
-    text-transform: uppercase;
-    letter-spacing: .027em;
-    text-decoration: none;
-    background-color:#31ad73;
+a{
+    font-family: 'Ubuntu', sans-serif;
+    background-color:rgb(69, 202, 91);
     color:#fff;
     border: 0;
-    width: 60%;
-    border-radius: 10px;
-    padding: .55556em .55556em .5em;
-}
-
-.funimation{
-    float: left;
-    text-align: left;
-    margin-left: 10%;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-.bww{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    width: 250px;
-    font-size: 14px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.Config_List{
-    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: -16%;
-    letter-spacing: 1px;
-    font-weight: 100;
-    font-size: 14px;
-}
-
-.Config_Desc{
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 800;
-    width: 60%;
-    text-align: center;
-}
-.x-vpn{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.grammarly{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.NordVPN{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.Hulu{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.Disney_Plus{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.VyprVPN{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.Chaturbate{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.Skinhub{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.Minecraft{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    border-radius: 0;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.Minecraft-Logo{
-    border-radius: 0px;
-}
-
-.Insomnia{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    border-radius: 0;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.Buy_Config{
-    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: -12px;
-    display: inline-block;
-    display: inline-flex;
-    align-items: stretch;
-    justify-content: center;
-    text-align: center;
-    box-sizing: border-box;
-    line-height: 1;
-    font-weight: bolder;
-    font-size: 19px;
-    text-transform: uppercase;
-    letter-spacing: .027em;
+    width: 50%;
+    border-radius: 5px;
+    padding: 3% 3% 3%;
+    letter-spacing: 30%;
+    position: relative;
+    top: 5%;
+    left: 32%;
     text-decoration: none;
-    background-color:#cc0000;
-    color:#fff;
-    border: 0;
-    width: 60%;
-    border-radius: 10px;
-    padding: .55556em .55556em .5em;
 }
 
-.AMC{
-    float: left;
-    text-align: left;
-    margin-left: 2%;
-    border-radius: 0;
-    width: 250px;
-    height: 300px;
-    margin-top: 100px;
+p{
+    left: 10%;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.lin3{
+    width: 100%;
+    height: 0.3%;
+    background-color: rgba(114, 114, 114, 0.178);
+}
+
+.lin2{
+    top: -49%;
+    position: relative;
+    width: 100%;
+    height: 0.3%;
+    background-color: rgba(114, 114, 114, 0.178);
+}
+
+.config{
+    box-sizing: border-box
 }
