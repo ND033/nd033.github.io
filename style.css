@@ -15,12 +15,20 @@ body{
     background-color: rgb(240, 240, 240)
 }
 
-h1{
+.free{
     text-decoration: none;
     text-align: center;
     font-family: sans-serif;
     margin-top: 4%;
     position: relative;
+}
+
+.paid{
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    clear: both;
 }
 
 .line{
@@ -56,6 +64,21 @@ a{
     text-decoration: none;
 }
 
+.apaid{
+    font-family: 'Ubuntu', sans-serif;
+    background-color:rgb(202, 69, 69);
+    color:#fff;
+    border: 0;
+    width: 50%;
+    border-radius: 5px;
+    padding: 3% 3% 3%;
+    letter-spacing: 30%;
+    position: relative;
+    top: 5%;
+    left: 32%;
+    text-decoration: none;
+}
+
 p{
     left: 10%;
     position: relative;
@@ -78,4 +101,14 @@ p{
 
 .config{
     box-sizing: border-box
+}
+
+.redline{
+    width: 80px;
+    height: 7px;
+    background-color: rgb(202, 69, 69);
+    margin: auto;
+    margin-top: -0.7%;
+    border-radius: 10px;
+    margin-bottom: 4%
 }
