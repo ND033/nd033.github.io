@@ -59,9 +59,28 @@ img{
 a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    background-color: transparent;
-    border: solid 1px #c7ceda;
-    border-color: #c7ceda;
+    background-image: linear-gradient(19deg, rgb(194, 244, 255) 0%, rgb(239, 204, 255) 100%);
+    color: rgb(32, 32, 32);
+    outline-width: 3px;
+    width: 75%;
+    border-radius: 60px;
+    padding: 5% 7% 5%;
+    letter-spacing: 40%;
+    position: relative;
+    top: 3%;
+    left: 27%;
+    text-decoration: none;
+}
+
+a:hover{
+    background-image: linear-gradient(19deg, #21D4FD 0%, rgb(215, 128, 255) 100%);
+}
+
+.apaid{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
     color: rgb(32, 32, 32);
     outline-width: 3px;
     width: 75%;
@@ -73,25 +92,6 @@ a{
     left: 27%;
     text-decoration: none;
     transition: 0.3s;
-}
-
-a:hover{
-    background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
-}
-
-.apaid{
-    font-family: 'Ubuntu', sans-serif;
-    background-color:rgb(202, 69, 69);
-    color:#fff;
-    border: 0;
-    width: 50%;
-    border-radius: 5px;
-    padding: 3% 3% 3%;
-    letter-spacing: 30%;
-    position: relative;
-    top: 5%;
-    left: 32%;
-    text-decoration: none;
 }
 
 p{
