@@ -68,8 +68,8 @@ a{
     padding: 5% 7% 5%;
     letter-spacing: 40%;
     position: relative;
-    top: 3%;
-    left: 27%;
+    top: 0.7em;
+    left: 5em;
     text-decoration: none;
 }
 
@@ -88,8 +88,6 @@ a:hover{
     padding: 5% 7% 5%;
     letter-spacing: 40%;
     position: relative;
-    top: 3%;
-    left: 27%;
     text-decoration: none;
     transition: 0.3s;
 }
